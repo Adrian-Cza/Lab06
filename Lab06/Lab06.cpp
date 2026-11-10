@@ -78,4 +78,14 @@ int main()
     cout << a.length();
     */  
 
+    // Zadanie 7
+    /*
+    string a;
+    int b, c;
+    cout << "Daj slowo: ", cin >> a;
+    cout << "Podaj od ktorego znaku: ", cin >> b;
+    cout << "Podaj ile znakow: ", cin >> c;
+
+    cout << a.substr(b, c);
+    */
 }
