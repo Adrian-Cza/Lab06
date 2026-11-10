@@ -70,4 +70,12 @@ int main()
         cout << e.what();
     }
     */
+
+    // Zadanie 6
+    /*
+    string a;
+    getline(cin, a);
+    cout << a.length();
+    */  
+
 }
