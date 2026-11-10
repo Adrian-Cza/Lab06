@@ -39,4 +39,11 @@ int main()
     char d = c;
     cout << endl << d;
     */
+
+    // Zadanie 4
+    /*
+    int a = 5, b = 8, c = 10, d = 17;
+    cout << (a + b + c) / 4 << endl;
+    cout << static_cast<double>(a + b + c) / 4;
+    */
 }
