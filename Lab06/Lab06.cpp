@@ -12,4 +12,19 @@ int main()
         cout << static_cast<double>(a / b);
     */
     
+    // Zadanie 2
+    /*
+    double a = 3.99;
+    double b = -3.99;
+
+    int c = a;
+    int d = b;
+
+    int e = static_cast<int>(a);
+    int f = static_cast<int>(b);
+
+    cout << a << " " << b << endl;
+    cout << c << " " << d << endl;
+    cout << e << " " << f << endl;
+    */
 }
