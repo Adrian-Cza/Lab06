@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 #include <string>
+#include <stdexcept>
 
 using namespace std;
 
@@ -45,5 +46,28 @@ int main()
     int a = 5, b = 8, c = 10, d = 17;
     cout << (a + b + c) / 4 << endl;
     cout << static_cast<double>(a + b + c) / 4;
+    */
+
+    // Zadanie 5
+    /*
+    string a, b;
+    double procent;
+    try {
+        cout << "Podaj liczbe wykonanych elementow: ", cin >> a;
+        int c = stoi(a);
+        cout << "Podaj liczbe wszystkich elementow: ", cin >> b;
+        int d = stoi(b);
+        if (d != 0) {
+            procent = static_cast<double>(c) / d;
+            cout << "Procent wykonania: " << procent * 100 << "%";
+        }
+        else {
+            cout << "Nie mozna dzielic przez 0";
+        }
+        
+    }
+    catch (const invalid_argument& e) {
+        cout << e.what();
+    }
     */
 }
