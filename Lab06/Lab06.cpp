@@ -1,4 +1,5 @@
 ﻿#include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -26,5 +27,16 @@ int main()
     cout << a << " " << b << endl;
     cout << c << " " << d << endl;
     cout << e << " " << f << endl;
+    */
+
+    // Zadanie 3
+    /*
+    char a = 'A';
+    int b = a;
+    cout << b;
+
+    int c = 66;
+    char d = c;
+    cout << endl << d;
     */
 }
